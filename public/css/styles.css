@@ -1,11 +1,27 @@
 html {
   min-height: 100%;
-  position: relative;
+  position: absolute;
+ background-color: navy;
+     line-height: 1;
+ max-width: 1000px;
+           
+    background-color: white;
+    padding: 0px 40px 0px 40px;
+    background-image: linear-gradient(to right, lightblue, white);
+    
+    background-repeat: repeat-x;
+    height: 30%;
+padding-left: 100px;
 }
 
+.container{
+max-width: 90%; 
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
+padding-left: 70px;
+ 
 }
 .navbar {
     padding-top: 15px;
@@ -28,13 +44,14 @@ html {
 	position: absolute;
 	text-align: center;
 	bottom: 0;
-	width: 100%;
+	width: 90%;
 	height: 60px;
-	background-color: #1abc9c;
+	background-color:white ;
+ background-image: linear-gradient(to right, lightblue, white);
 }
 
 .footer p {
 	margin-top: 25px;
 	font-size: 12px;
-  color: #fff;
+  color: black;
 }
